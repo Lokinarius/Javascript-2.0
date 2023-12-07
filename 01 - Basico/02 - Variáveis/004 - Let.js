@@ -1,3 +1,10 @@
+//Não podemos criar variáveis com palavras reservadas
+//Ex: let let, let console, let alert
+//nomes significativos
+//Variáveis não podem começar com números, conter traços ou espaços
+//camelCase e Case-sensitive
+//NÃO UTILIZE VAR, UTILIZE LET
+
 let nome = 'William'; //string
 let ano = '2022';
 let nasc = '1995';
@@ -24,7 +31,3 @@ test = 'testando'; // incializando a variável
 console.log(test);
 test = 'Olá, Mundo!';
 console.log(test)
-
-//Não podemos criar variáveis com palavras reservadas
-//Ex: let let, let console, let alert
-//Variáveis não podem começar com números, conter traços ou espaços
