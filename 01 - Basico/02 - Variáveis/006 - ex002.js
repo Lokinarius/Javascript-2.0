@@ -16,5 +16,5 @@ console.log(anoNasc)
 console.log(nome,sobrenome,', tem',idade,'anos, pesa',peso,'kg, e tem',altura, 'm de altura')
 // o '+' tem a mesma funcionalidade da virgula
 console.log(nome + ' ' + sobrenome + ', tem ' + idade + ' anos, pesa ' + peso +'kg, e tem ' + altura + 'm de altura.')
-//tam é possivel colocar uma frase inteira no console.log, basta coloca-la entre crases `` e colocar o nome da variável entre ${}
+//também é possivel colocar uma frase inteira no console.log, basta coloca-la entre crases `` e colocar o nome da variável entre ${}
 console.log(`${nome} ${sobrenome}, tem ${idade} anos, pesa ${peso}kg, e tem ${altura}m de altura.`)
