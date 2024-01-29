@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #fff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 10px;
 }
@@ -55,4 +55,13 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.tabelaImc {
+  display: flex;
+}
+
+.tabelaImc div {
+  flex: 1;
+  padding: 10px;
 }
