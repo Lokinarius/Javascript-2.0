@@ -1,4 +1,3 @@
-//capturar evento de submit
 const form = document.querySelector('#form')
 
 form.addEventListener('submit', function(event){
@@ -45,7 +44,7 @@ function getNivelImc(imc){
 }
 
 function getImc(peso, altura) {
-    const imc = peso = peso/ altura ** 2
+    const imc =  peso/ altura ** 2
     return imc.toFixed(2)
 }
 
@@ -54,10 +53,18 @@ function criaP (){
     return p;
 }
 
+
 function setResultado(msg, isValid){
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
+
     const p = criaP();
+
+    if(isValid){
+        p.classList.add('paragrafo-resultado');
+    } else{
+        p.classList.add('bad')
+    }
     p.innerHTML = msg;
     resultado.appendChild(p);
 }
