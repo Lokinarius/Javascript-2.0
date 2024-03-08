@@ -1,4 +1,4 @@
-const h1 = document.querySelector('.container h1')
+/*const h1 = document.querySelector('.container h1')
 const data = new Date();
 
 function getdiaSemanaTexto(diaSemana) {
@@ -83,4 +83,12 @@ function criaDate(data){
     + ` de ${data.getFullYear()}`);
 }
 
-h1.innerHTML = criaDate(data);
+h1.innerHTML = criaDate(data);*/
+
+const h1 = document.querySelector('.container h1');
+const data = new Date();
+const opcoes = {
+    dateStyle: 'full'
+}
+
+h1.innerHTML = data.toLocaleDateString('pt-BR', opcoes);
