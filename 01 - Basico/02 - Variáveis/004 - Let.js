@@ -6,7 +6,7 @@
 //NÃO UTILIZE VAR, UTILIZE LET
 
 let nome = 'William'; //string
-let ano = '2022';
+let ano = '2023';
 let nasc = '1995';
 let prof = 'programador';
 let ling = 'Javascript';
@@ -15,7 +15,7 @@ let hob1 = 'academia';
 let hob2 = 'jogar videogame'
 /*
 console.log(William, nasceu em 1995. );
-console.log('Em 2022, William, decidiu virar programador.');
+console.log('Em 2023, William, decidiu virar programador.');
 console.log('William começou a estudar pela linguagem JavaScript.');
 console.log('William estudava sempre ás 16:00.')
 console.log('Além de estudar programação, William, gostava de ir a academia e jogar videogame')

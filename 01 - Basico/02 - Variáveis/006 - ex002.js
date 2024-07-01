@@ -1,5 +1,5 @@
 //Let ou const
-/* William Galvão, tem 28 anos, pesa 83kg, tem 1.8 de altura*/
+/* William Galvão, tem 28 anos, pesa 77kg, tem 1.8 de altura*/
 const nome = 'William';
 const sobrenome = 'Galvão';
 const idade = 28;
